@@ -1,7 +1,16 @@
 package pencuriIkan;
 
+import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Rectangle;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
+import java.util.EventListener;
+import java.util.EventObject;
+
+import javax.swing.JOptionPane;
+import javax.swing.event.EventListenerList;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -44,6 +53,10 @@ public abstract class MovingObject extends GameObject {
 	/** The other pixel point. */
 	private Point otherPixelPoint=null;
 	
+	private JMovingObject objectGui=null;
+	
+	
+	
 	/**
 	 * Instantiates a new moving object.
 	 *
@@ -56,6 +69,7 @@ public abstract class MovingObject extends GameObject {
 	public MovingObject(Point objectPoint, String filePath){
 		this.setObjectLocation(objectPoint);
 		this.setObjectImage(filePath);
+		MenaraPengawas.getInstance().add(this);
 	}
 	
 	/**
@@ -70,6 +84,9 @@ public abstract class MovingObject extends GameObject {
 		new AIEnemy(escapePoint,null,this);
 	}
 	
+	public void setObjectGui(JMovingObject objectGui){
+		this.objectGui=objectGui;
+	}
 	/**
 	 * Move.
 	 *
@@ -78,6 +95,7 @@ public abstract class MovingObject extends GameObject {
 	 *            the direction
 	 */
 	public void move(int direction) {
+		Rectangle temp=this.getObjectBounds();
 		switch (direction) {
 		case MOVING_UP:
 			this.setY(this.getY() - 1);
@@ -96,6 +114,8 @@ public abstract class MovingObject extends GameObject {
 			this.setObjectTargetDegree(180);
 			break;
 		}
+		if(this.getObjectGui()!=null)
+			this.getObjectGui().setBounds(this.getObjectBounds());
 	}
 	
 	/**
@@ -111,6 +131,9 @@ public abstract class MovingObject extends GameObject {
 			if(this.pixelCollide(other, this.getCollideArea(this.getObjectBounds(), other.getObjectBounds()))){
 				return true;
 			}
+		}
+		if (other instanceof MovingObject){
+			JOptionPane.showMessageDialog(null, "The stealer ship has been caught!");
 		}
 		return false;
 	}
@@ -294,5 +317,9 @@ public abstract class MovingObject extends GameObject {
 	 */
 	private void setOtherIntersect(boolean otherIntersect) {
 		this.otherIntersect = otherIntersect;
+	}
+
+	public JMovingObject getObjectGui() {
+		return objectGui;
 	}
 }

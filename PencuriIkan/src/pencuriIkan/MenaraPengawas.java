@@ -10,7 +10,7 @@ public class MenaraPengawas {
 	private MenaraPengawas(){
 		this.setDataObjek(new ArrayList<MovingObject>());
 	}
-	
+
 	public static MenaraPengawas getInstance(){
 		if (instance==null)
 			instance = new MenaraPengawas();
