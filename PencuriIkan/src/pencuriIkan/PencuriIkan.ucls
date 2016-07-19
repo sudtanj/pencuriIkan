@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="pencuriIkan.AIBot" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/AIBot.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="105" x="804" y="392"/>    
+    <position height="117" width="105" x="666" y="392"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -11,8 +11,8 @@
     </display>  
   </class>  
   <class id="2" language="java" name="java.lang.Object" project="PencuriIkan" 
-    file="D:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
-    <position height="315" width="138" x="622" y="37"/>    
+    file="D:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="315" width="138" x="666" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="pencuriIkan.MovingObject" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/MovingObject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="603" width="254" x="603" y="1246"/>    
+    <position height="711" width="340" x="101" y="963"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,185 +30,203 @@
   </class>  
   <class id="4" language="java" name="pencuriIkan.AIEnemy" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/AIEnemy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="243" width="243" x="685" y="963"/>    
+    <position height="243" width="243" x="200" y="1714"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="temp.Translator" project="PencuriIkan" 
-    file="/PencuriIkan/src/temp/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="423" width="234" x="41" y="392"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="pencuriIkan.SuperString" project="PencuriIkan" 
-    file="/PencuriIkan/src/pencuriIkan/SuperString.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="142" x="622" y="392"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="pencuriIkan.Island" project="PencuriIkan" 
+  <class id="5" language="java" name="pencuriIkan.Island" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/Island.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="87" x="150" y="1246"/>    
+    <position height="99" width="87" x="776" y="1714"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="pencuriIkan.StaticObject" project="PencuriIkan" 
+  <class id="6" language="java" name="pencuriIkan.StaticObject" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/StaticObject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="159" x="150" y="963"/>    
+    <position height="117" width="159" x="568" y="963"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="pencuriIkan.StealingShip" project="PencuriIkan" 
+  <class id="7" language="java" name="pencuriIkan.StealingShip" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/StealingShip.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="118" x="603" y="1889"/>    
+    <position height="99" width="118" x="42" y="1714"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="pencuriIkan.GameObject" project="PencuriIkan" 
+  <class id="8" language="java" name="pencuriIkan.GameObject" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/GameObject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="531" width="267" x="315" y="392"/>    
+    <position height="531" width="267" x="359" y="392"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="pencuriIkan.JMovingObject" project="PencuriIkan" 
+  <class id="9" language="java" name="pencuriIkan.JMovingObject" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/JMovingObject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="243" width="275" x="370" y="963"/>    
+    <position height="243" width="275" x="101" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="pencuriIkan.MenaraPengawas" project="PencuriIkan" 
+  <class id="10" language="java" name="pencuriIkan.MenaraPengawas" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/MenaraPengawas.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="171" width="243" x="949" y="392"/>    
+    <position height="171" width="243" x="483" y="1714"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="pencuriIkan.MenaraPengawasGui" project="PencuriIkan" 
+  <class id="11" language="java" name="pencuriIkan.MenaraPengawasGui" project="PencuriIkan" 
     file="/PencuriIkan/src/pencuriIkan/MenaraPengawasGui.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="151" x="949" y="37"/>    
+    <position height="135" width="178" x="141" y="392"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="14">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="15" name="instance"/>      
-      <multiplicity id="16" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="17">    
+  <generalization id="12">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <generalization id="18">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <association id="19">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="20" name="object">        
-        <position height="0" width="0" x="734" y="-942"/>      
-      </attribute>      
-      <multiplicity id="21" minimum="0" maximum="1">        
-        <position height="0" width="0" x="734" y="-942"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="22">    
-    <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
-  <generalization id="23">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <association id="24">    
-    <bendpoint x="958" y="963"/>    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="25" name="dataObjek"/>      
-      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="27">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="28" name="enemy">        
-        <position height="0" width="0" x="734" y="-942"/>      
+  <association id="13">    
+    <bendpoint x="110" y="392"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="14" name="objectGui">        
+        <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="29" minimum="0" maximum="1">        
-        <position height="0" width="0" x="734" y="-942"/>      
+      <multiplicity id="15" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="30">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="31" name="objekMenara"/>      
-      <multiplicity id="32" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="33">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="10"/>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
   </generalization>  
-  <generalization id="34">    
-    <end type="SOURCE" refId="12"/>    
+  <generalization id="17">    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <generalization id="35">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
   </generalization>  
-  <generalization id="36">    
+  <generalization id="19">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <generalization id="37">    
+  <generalization id="20">    
+    <bendpoint x="471" y="963"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="21">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="enemy">        
+        <position height="0" width="0" x="734" y="-942"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1">        
+        <position height="0" width="0" x="734" y="-942"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="25">    
+    <bendpoint x="89" y="392"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="26" name="object">        
+        <position height="0" width="0" x="734" y="-942"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="734" y="-942"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="29">    
+    <bendpoint x="801" y="963"/>    
+    <bendpoint x="801" y="392"/>    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <generalization id="38">    
-    <bendpoint x="339" y="963"/>    
+  <dependency id="30">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="32">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="33" name="instance">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <bendpoint x="492" y="963"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="36" name="objekMenara">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="39" name="dataObjek">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="41">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="10"/>  
+    <end type="TARGET" refId="8"/>  
   </generalization>  
-  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
     <operations public="true" package="true" protected="true" private="true" static="true"/>  

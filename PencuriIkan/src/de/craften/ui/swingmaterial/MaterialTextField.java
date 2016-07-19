@@ -1,7 +1,7 @@
 package de.craften.ui.swingmaterial;
 
 import de.craften.ui.swingmaterial.util.SafePropertySetter;
-import pencuriIkan.SuperString;
+import temp.SuperString;
 
 import org.jdesktop.core.animation.timing.Animator;
 import org.jdesktop.core.animation.timing.interpolators.SplineInterpolator;

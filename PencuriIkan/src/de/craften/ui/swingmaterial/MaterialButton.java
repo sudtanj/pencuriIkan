@@ -3,7 +3,7 @@ package de.craften.ui.swingmaterial;
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicButtonUI;
 
-import pencuriIkan.SuperString;
+import temp.SuperString;
 
 import java.awt.*;
 import java.awt.event.FocusEvent;

@@ -1,10 +1,7 @@
-package pencuriIkan;
+package temp;
 
 import java.net.URL;
 import java.net.URLConnection;
-
-import temp.Settings;
-import temp.Translator;
 
 // TODO: Auto-generated Javadoc
 /**

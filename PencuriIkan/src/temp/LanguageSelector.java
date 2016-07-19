@@ -8,7 +8,6 @@ import java.net.URL;
 
 import de.craften.ui.swingmaterial.MaterialComboBox;
 import langCode.LanguageCode;
-import pencuriIkan.SuperString;
 
 public class LanguageSelector extends MaterialComboBox {
 	private static final long serialVersionUID = 4715799003590054842L;

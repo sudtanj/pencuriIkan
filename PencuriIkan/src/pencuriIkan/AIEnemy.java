@@ -1,7 +1,12 @@
 package pencuriIkan;
 
+import java.awt.Frame;
+import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.Rectangle;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -66,6 +71,7 @@ public class AIEnemy extends AIBot {
 						e.printStackTrace();
 					}
 				}
+				JOptionPane.showMessageDialog(null, "The stealer ship has been escape!");
 			}
 		}.start();
 	}

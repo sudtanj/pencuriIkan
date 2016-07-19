@@ -12,7 +12,6 @@ import javax.swing.SwingUtilities;
 import de.craften.ui.swingmaterial.MaterialColor;
 import de.craften.ui.swingmaterial.MaterialPanel;
 import de.craften.ui.swingmaterial.MaterialTextField;
-import pencuriIkan.SuperString;
 
 public class MaterialMessage extends MaterialTextField {
 	private SuperString data;

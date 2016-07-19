@@ -7,7 +7,7 @@ import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.plaf.basic.ComboPopup;
 
-import pencuriIkan.SuperString;
+import temp.SuperString;
 
 import java.awt.*;
 

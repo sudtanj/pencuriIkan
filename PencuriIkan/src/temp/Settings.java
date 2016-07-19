@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import pencuriIkan.SuperString;
-
 public class Settings {
 	public static String clientId="AIzaSyBxrYAiBJDFundW_hQhuB5YeOP3mj_K_-E";
 	public static String language="Indonesian";
